@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #8F1B32;
+}
+h1 {
+    font-size: 3rem;
+    color: white;
+}
+h2 {
+    font-size: 2rem;
+    color: white;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+}
+section {
+    width: 90%;
+    height: 250px;
+    border-radius: 20px;
+    background-color: crimson;
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 5% 0 5%; 
+}
+form {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+/* section form label {
+    display: flex;
+    justify-content: center;
+} */
+section form label span {
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+}
+input {
+    border-radius: 5px;
+    background-color: #8F1B32;
+    color: white;
+    border: 0;
+    height: 3rem;
+    padding: 1rem;
+}
+.lados-square {
+    display: flex;
+    padding: 1.5rem 0 1.5rem 0;
+    justify-content: space-evenly;
+}
+.lados-square input {
+    width: 150px;
+}
+.lados-triangle {
+    display: flex;
+    padding: 1.5rem 0 1.5rem 0;
+    justify-content: space-evenly;
+}
+.lados-triangle input {
+    width: 60px;
+}
+.lados-circle {
+    display: flex;
+    padding: 1.5rem 0 1.5rem 0;
+    justify-content: space-evenly;
+}
+.lados-circle input {
+    width: 150px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+section form div button {
+    border-radius: 5px;
+    background-color: white;
+    color: #8F1B32;
+    border: 0;
+    height: 3rem;
+    padding: 1rem;
+}
