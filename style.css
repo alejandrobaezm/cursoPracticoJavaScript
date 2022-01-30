@@ -36,7 +36,7 @@ section {
     margin: 5% 5% 0 5%; 
 }
 form {
-    width: 60vw;
+    width: 70vw;
     display: flex;
     flex-direction: column;
 }
@@ -92,4 +92,5 @@ section form div button {
     border: 0;
     height: 3rem;
     padding: 1rem;
+    width: 100px;
 }
