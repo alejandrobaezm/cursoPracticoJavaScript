@@ -6,7 +6,7 @@
 
 html {
     font-size: 62.5%;
-    background-color: #8F1B32;
+    background-color: #00408F;
 }
 h1 {
     font-size: 3rem;
@@ -26,7 +26,7 @@ section {
     width: 90%;
     height: 250px;
     border-radius: 20px;
-    background-color: crimson;
+    background-color: #2A7ADB;
     color: white;
     padding: 1rem 1rem 1rem 1rem;
     display: flex;
@@ -51,7 +51,7 @@ section form label span {
 }
 input {
     border-radius: 5px;
-    background-color: #8F1B32;
+    background-color: #00408F;
     color: white;
     border: 0;
     height: 3rem;
@@ -88,7 +88,7 @@ input {
 section form div button {
     border-radius: 5px;
     background-color: white;
-    color: #8F1B32;
+    color: #00408F;
     border: 0;
     height: 3rem;
     padding: 1rem;
