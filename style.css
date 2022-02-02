@@ -7,6 +7,8 @@
 html {
     font-size: 62.5%;
     background-color: #00408F;
+    display: flex;
+    align-items: center;
 }
 h1 {
     font-size: 3rem;
@@ -14,7 +16,7 @@ h1 {
 }
 h2 {
     font-size: 2rem;
-    color: white;
+    color: #00408F;
 }
 main {
     display: flex;
@@ -22,12 +24,16 @@ main {
     justify-content: center;
     font-family: Helvetica, sans-serif;
 }
+header {
+    display: flex;
+    justify-content: center;
+}
 section {
     width: 90%;
     height: 250px;
     border-radius: 20px;
-    background-color: #2A7ADB;
-    color: white;
+    background-color: white;
+    color: #00408F;
     padding: 1rem 1rem 1rem 1rem;
     display: flex;
     flex-direction: column;
@@ -87,8 +93,8 @@ input {
 }
 section form div button {
     border-radius: 5px;
-    background-color: white;
-    color: #00408F;
+    background-color: #2A7ADB;
+    color: white;
     border: 0;
     height: 3rem;
     padding: 1rem;

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras geometricas</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 900px)">
 </head>
 <body>
     <header>
@@ -57,6 +59,26 @@
                 </div>
             </form>
         </section>
+        <section class="triangle">
+            <h2>Calcula el altura de un triangulo Isosceles</h2>
+            <form action="">
+                <label for="input-triangle-isosceles">
+                    <span>
+                        Escribe cuanto mide cada lado de tu triangulo Isosceles:
+                    </span>
+                </label>
+                <div class="lados-triangle">
+                    <input id="input-triangle1-isosceles" type="number" placeholder="Lado 1">
+                    <input id="input-triangle2-isosceles" type="number" placeholder="Lado 2">
+                    <input id="input-triangle3-isosceles" type="number" placeholder="Lado 3">
+                </div>
+                <div class="buttons">
+                    <button type="button" onclick="calcularAlturaTrianguloIsosceles()">
+                        Altura
+                    </button>
+                </div>
+            </form>
+        </section>
         <section class="circle">
             <h2>Calcula el area y perimetro de un circulo</h2>
             <form action="">
@@ -79,6 +101,6 @@
             </form>
         </section>   
     </main>
-    <script src="/cursoPracticoJavaScript/figuras.js"></script>
+    <script src="/figuras.js"></script>
 </body>
 </html>
