@@ -82,7 +82,8 @@ function calcularPerimetroCuadrado() {
 
     const perimetro = perimetroCuadrado(value);
 
-    alert(perimetro);
+    const resultSquare = document.getElementById("ResultSquare");
+    resultSquare.innerText = "El perimetro es " + perimetro.toFixed(2);
 }
 
 function calcularAreaCuadrado() {
@@ -91,7 +92,8 @@ function calcularAreaCuadrado() {
 
     const area = areaCuadrado(value);
 
-    alert(area);
+    const resultSquare = document.getElementById("ResultSquare");
+    resultSquare.innerText = "El area es " + area.toFixed(2);
 }
 
 function calcularPerimetroTriangulo(){
@@ -109,7 +111,8 @@ function calcularPerimetroTriangulo(){
 
     const perimetro = perimetroTriangulo(value11, value22, value33);
 
-    alert(perimetro);
+    const resultTriangle = document.getElementById("ResultTriangle");
+    resultTriangle.innerText = "El perimetro es " + perimetro.toFixed(2);
 }
 
 function calcularAreaTriangulo(){
@@ -123,7 +126,8 @@ function calcularAreaTriangulo(){
 
     const area = areaTriangulo(value11, value22);
 
-    alert(area);
+    const resultTriangle = document.getElementById("ResultTriangle");
+    resultTriangle.innerText = "El area es " + area.toFixed(2);
 }
 
 function calcularAlturaTrianguloIsosceles(){
@@ -141,7 +145,8 @@ function calcularAlturaTrianguloIsosceles(){
 
     const altura = alturaTriangulo(value11, value22, value33);
 
-    alert(altura);
+    const resultTriangleIso = document.getElementById("ResultTriangleIso");
+    resultTriangleIso.innerText = "La altura del triangulo es " + altura.toFixed(2);
 }
 
 function calcularPerimetroCirculo(){
@@ -150,7 +155,8 @@ function calcularPerimetroCirculo(){
 
     const perimetro = perimetroCirculo(value1);
 
-    alert(perimetro);
+    const resultCircle = document.getElementById("ResultCircle");
+    resultCircle.innerText = "El perimetro es " + perimetro.toFixed(2);
 }
 
 function calcularAreaCirculo(){
@@ -159,5 +165,6 @@ function calcularAreaCirculo(){
 
     const area = areaCirculo(value1);
 
-    alert(area);
+    const resultCircle = document.getElementById("ResultCircle");
+    resultCircle.innerText = "El area es " + area;
 }
