@@ -166,5 +166,5 @@ function calcularAreaCirculo(){
     const area = areaCirculo(value1);
 
     const resultCircle = document.getElementById("ResultCircle");
-    resultCircle.innerText = "El area es " + area;
+    resultCircle.innerText = "El area es " + area.toFixed(2);
 }
