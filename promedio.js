@@ -2,7 +2,12 @@ const lista1 = [
     100,
     200,
     300,
-    500
+    500,
+    1000000,
+    350,
+    900,
+    110,
+    550
 ];
 
 function calcularMediaAritmetica(lista){
@@ -21,5 +26,36 @@ function calcularMediaAritmetica(lista){
 
     const promedioLista = sumaLista / lista.length;
     return promedioLista;
+}
+
+function sortArrays(lista) {
+    function compareNumbers(a, b) {
+        return a - b;
+    }
+    return lista.sort(compareNumbers);
+}
+function esPar(numero) {
+    if (numero % 2 === 0){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function calcularMediana(lista) {
+    const listaOrdenada = sortArrays(lista);
+
+    const mitadLista = parseInt(listaOrdenada.length / 2);
+    
+    if (esPar(listaOrdenada.length)){
+        const elemento1 = listaOrdenada[mitadLista-1];
+        const elemento2 = listaOrdenada[mitadLista];
+    
+        const promedioElemento1y2 = calcularMediaAritmetica([elemento1, elemento2]);
+        return promedioElemento1y2;
+    } else {
+        return listaOrdenada[mitadLista];
+    }
+
 }
 
